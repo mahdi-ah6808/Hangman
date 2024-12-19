@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2b2b2b"
+    tools:context=".Add_Words">
+
+    <Button
+        android:id="@+id/backspace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gray"
+        android:layout_marginTop="25dp"
+        android:text="Add Word in Hangman"
+        android:drawableEnd="@drawable/baseline_keyboard_backspace_24"/>
+
+    <EditText
+        android:id="@+id/Edt_Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="adding_word"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="parent" />
+
+    <Button
+        android:id="@+id/Btn_Add_Word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gray"
+        android:text="Add Word"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

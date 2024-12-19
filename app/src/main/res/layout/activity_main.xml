@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2b2b2b"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_hang"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:src="@drawable/hangman_0"/>
+
+    <TextView
+        android:id="@+id/txt_View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:text=""
+        android:fontFamily="monospace"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_a"
+            style="@style/Letters"
+            android:text="A" />
+
+        <Button
+            android:id="@+id/btn_b"
+            style="@style/Letters"
+            android:text="B" />
+
+        <Button
+            android:id="@+id/btn_c"
+            style="@style/Letters"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/btn_d"
+            style="@style/Letters"
+            android:text="D" />
+
+        <Button
+            android:id="@+id/btn_e"
+            style="@style/Letters"
+            android:text="E" />
+
+        <Button
+            android:id="@+id/btn_f"
+            style="@style/Letters"
+            android:text="F" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_g"
+            style="@style/Letters"
+            android:text="G" />
+
+        <Button
+            android:id="@+id/btn_h"
+            style="@style/Letters"
+
+            android:text="H" />
+
+        <Button
+            android:id="@+id/btn_i"
+            style="@style/Letters"
+            android:text="I" />
+
+        <Button
+            android:id="@+id/btn_j"
+            style="@style/Letters"
+            android:text="J" />
+
+        <Button
+            android:id="@+id/btn_k"
+            style="@style/Letters"
+            android:text="K" />
+
+        <Button
+            android:id="@+id/btn_l"
+            style="@style/Letters"
+            android:text="L" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:textDirection="rtl"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_m"
+            style="@style/Letters"
+            android:text="M" />
+
+        <Button
+            android:id="@+id/btn_n"
+            style="@style/Letters"
+
+            android:text="N" />
+
+        <Button
+            android:id="@+id/btn_o"
+            style="@style/Letters"
+            android:text="O" />
+
+        <Button
+            android:id="@+id/btn_p"
+            style="@style/Letters"
+            android:text="P" />
+
+        <Button
+            android:id="@+id/btn_q"
+            style="@style/Letters"
+            android:text="Q" />
+
+        <Button
+            android:id="@+id/btn_r"
+            style="@style/Letters"
+            android:text="R" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_s"
+            style="@style/Letters"
+            android:text="S" />
+
+        <Button
+            android:id="@+id/btn_t"
+            style="@style/Letters"
+            android:text="T" />
+
+        <Button
+            android:id="@+id/btn_u"
+            style="@style/Letters"
+            android:text="U" />
+
+        <Button
+            android:id="@+id/btn_v"
+            style="@style/Letters"
+            android:text="V" />
+
+        <Button
+            android:id="@+id/btn_w"
+            style="@style/Letters"
+            android:text="W" />
+
+        <Button
+            android:id="@+id/btn_x"
+            style="@style/Letters"
+
+            android:text="X" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textDirection="rtl"
+        android:weightSum="6">
+
+        <Button
+            android:id="@+id/btn_y"
+            style="@style/Letters"
+            android:text="Y"/>
+
+        <Button
+            android:id="@+id/btn_z"
+            style="@style/Letters"
+            android:text="Z" />
+        <Button
+            android:id="@+id/btn_z1"
+            style="@style/Letters"
+            android:text="Z2"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/btn_z2"
+            style="@style/Letters"
+            android:text="Z8"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/btn_z3"
+            style="@style/Letters"
+            android:text="Z10"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/btn_z4"
+            style="@style/Letters"
+            android:text="Z"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+</LinearLayout>
